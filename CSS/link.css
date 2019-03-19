@@ -1,0 +1,20 @@
+h1 {
+    color: #585A56;
+    font-size: 26pt;
+    font-family: monospace;
+}
+
+p {
+    color: #81A3A7;
+    font-size: 14pt;
+    font-family: monospace;
+}
+
+img {
+    width: 500px;
+}
+
+body {
+    background-color: #F2EEE7;
+    font-family: monospace;
+}
