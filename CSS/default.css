@@ -23,12 +23,22 @@ e. Others
 =====================================================================  */
 
 
-/* ------------------------------------------------------------------
-/* b. Reset
-      Adapted from:
-      Normalize.css - https://github.com/necolas/normalize.css/
-      HTML5 Doctor Reset - html5doctor.com/html-5-reset-stylesheet/
 /* ------------------------------------------------------------------ */
+
+
+/* a. Webfonts and Icon fonts
+ ------------------------------------------------------------------ */
+
+@import url("fonts.css");
+@import url("fontello/css/fontello.css");
+@import url("font-awesome/css/font-awesome.min.css");
+
+/* ------------------------------------------------------------------
+ /* b. Reset
+       Adapted from:
+       Normalize.css - https://github.com/necolas/normalize.css/
+       HTML5 Doctor Reset - html5doctor.com/html-5-reset-stylesheet/
+ /* ------------------------------------------------------------------ */
 
 html,
 body,
@@ -195,10 +205,10 @@ table {
 
 
 /* c. Default and Basic Styles
-      Adapted from:
-      Skeleton CSS Framework - http://www.getskeleton.com/
-      Typeplate Typographic Starter Kit - http://typeplate.com/
-/* ------------------------------------------------------------------ */
+       Adapted from:
+       Skeleton CSS Framework - http://www.getskeleton.com/
+       Typeplate Typographic Starter Kit - http://typeplate.com/
+ /* ------------------------------------------------------------------ */
 
 
 /*  1. Basic  ------------------------------------------------------- */
@@ -230,8 +240,8 @@ body {
 
 
 /*  2. Typography
-       Vertical rhythm with leading derived from 6
---------------------------------------------------------------------- */
+        Vertical rhythm with leading derived from 6
+ --------------------------------------------------------------------- */
 
 h1,
 h2,
@@ -305,7 +315,7 @@ p.lead {
 
 
 /* for 'em' and 'strong' tags, font-size and line-height should be same with
-the body tag due to rendering problems in some browsers */
+ the body tag due to rendering problems in some browsers */
 
 em {
     font: 15px/30px 'opensans-italic', sans-serif;
@@ -368,15 +378,15 @@ blockquote cite a:visited {
 
 
 /* ---------------------------------------------------------------------
-/*  Pull Quotes Markup
-/*
-    <aside class="pull-quote">
-		<blockquote>
-			<p></p>
-		</blockquote>
-	 </aside>
-/*
-/* --------------------------------------------------------------------- */
+ /*  Pull Quotes Markup
+ /*
+     <aside class="pull-quote">
+         <blockquote>
+             <p></p>
+         </blockquote>
+      </aside>
+ /*
+ /* --------------------------------------------------------------------- */
 
 .pull-quote {
     position: relative;
@@ -536,15 +546,15 @@ li p {}
 
 
 /* ---------------------------------------------------------------------
-/*  Stats Tab Markup
-
-    <ul class="stats-tabs">
-		<li><a href="#">[value]<b>[name]</b></a></li>
-	 </ul>
-
-    Extend this object into your markup.
-/*
-/* --------------------------------------------------------------------- */
+ /*  Stats Tab Markup
+ 
+     <ul class="stats-tabs">
+         <li><a href="#">[value]<b>[name]</b></a></li>
+      </ul>
+ 
+     Extend this object into your markup.
+ /*
+ /* --------------------------------------------------------------------- */
 
 .stats-tabs {
     padding: 0;
@@ -816,8 +826,8 @@ select {
 
 
 /* select { padding: 0;
-   width: 220px;
-   } */
+    width: 220px;
+    } */
 
 input[type="text"]:focus,
 input[type="password"]:focus,
@@ -860,13 +870,13 @@ input[type="checkbox"] {
 
 
 /* d. Grid
----------------------------------------------------------------------
-   gutter = 40px.
-/* ------------------------------------------------------------------ */
+ ---------------------------------------------------------------------
+    gutter = 40px.
+ /* ------------------------------------------------------------------ */
 
 
 /* default
---------------------------------------------------------------- */
+ --------------------------------------------------------------- */
 
 .row {
     width: 96%;
@@ -1127,7 +1137,7 @@ input[type="checkbox"] {
 
 
 /* block grids
---------------------------------------------------------------------- */
+ --------------------------------------------------------------------- */
 
 .bgrid-sixths [class*="column"] {
     width: 16.66667%;
@@ -1151,9 +1161,9 @@ input[type="checkbox"] {
 
 
 /* Left clearing for block grid columns - columns that changes width in
-different screen sizes. Allows columns with different heights to align
-properly.
---------------------------------------------------------------------- */
+ different screen sizes. Allows columns with different heights to align
+ properly.
+ --------------------------------------------------------------------- */
 
 .first {
     clear: left;
@@ -1171,7 +1181,7 @@ properly.
 
 
 /* smaller screens
---------------------------------------------------------------- */
+ --------------------------------------------------------------- */
 
 @media only screen and (max-width: 900px) {
     /* block grids on small screens */
@@ -1198,7 +1208,7 @@ properly.
 
 
 /* mobile wide/smaller tablets
---------------------------------------------------------------- */
+ --------------------------------------------------------------- */
 
 @media only screen and (max-width: 767px) {
     .row {
@@ -1263,7 +1273,7 @@ properly.
 
 
 /* mobile narrow
---------------------------------------------------------------- */
+ --------------------------------------------------------------- */
 
 @media only screen and (max-width: 460px) {
     .row {
@@ -1273,7 +1283,7 @@ properly.
 
 
 /* larger screens
---------------------------------------------------------------- */
+ --------------------------------------------------------------- */
 
 @media screen and (min-width: 1200px) {
     .wide .row {
@@ -1286,12 +1296,12 @@ properly.
 
 
 /* e. Others
-/* ------------------------------------------------------------------ */
+ /* ------------------------------------------------------------------ */
 
 
 /*  1. Clearing
-    (http://nicolasgallagher.com/micro-clearfix-hack/
---------------------------------------------------------------------- */
+     (http://nicolasgallagher.com/micro-clearfix-hack/
+ --------------------------------------------------------------------- */
 
 .cf:before,
 .cf:after {
