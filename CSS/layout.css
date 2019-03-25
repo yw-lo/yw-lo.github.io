@@ -1,0 +1,47 @@
+/* General Styles
+/* ------------------------------------------------------------------ */
+
+body {
+    background: #81A3A7;
+}
+
+
+/* ------------------------------------------------------------------ */
+
+
+/* About Section
+/* ------------------------------------------------------------------ */
+
+#about {
+    background: #C2D3DA;
+    padding-top: 120px;
+    padding-bottom: 66px;
+    overflow: hidden;
+}
+
+#about h2 {
+    font: 22px/30px 'opensans-bold', sans-serif;
+    color: #585A56;
+    margin-bottom: 12px;
+}
+
+#about p {
+    line-height: 30px;
+    color: #7A7A7A;
+}
+
+#about .profile-pic {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+}
+
+#about .portfolio-pic {
+    position: relative;
+    height: 200px;
+    border-radius: 0.3em;
+}
+
+
+/* ------------------------------------------------------------------ */
