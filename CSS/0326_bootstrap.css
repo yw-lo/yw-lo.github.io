@@ -1,0 +1,28 @@
+#intro {
+    width: 60%;
+}
+
+#cd1,
+#cd2 {
+    padding: 3%;
+    width: 80%;
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 10px;
+}
+
+.c {
+    box-shadow: 0px 3px 6px 0px #b5b5b5;
+}
+
+body {
+    background-color: #ede7f1;
+}
+
+.navbar-light .navbar-toggler {
+    background-color: #fcf7ff;
+}
+
+.textalign {
+    text-align: center;
+}
