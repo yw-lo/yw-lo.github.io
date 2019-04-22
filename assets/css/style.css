@@ -62,7 +62,7 @@ h3,
 h4,
 h5,
 h6 {
-    color: #777466;
+    color: ##77735d;
     font-family: 'Cantarell', sans-serif;
 }
 
@@ -72,7 +72,7 @@ a:hover:after {
 
 a:hover,
 a:focus {
-    color: #777466;
+    color: #494739;
     text-decoration: none;
 }
 
@@ -85,7 +85,7 @@ ul {
 }
 
 p {
-    color: #777;
+    color: #494739;
     font-size: 15px;
     font-weight: 300;
 }
@@ -876,7 +876,7 @@ ul.tags li a:hover {
     display: table;
     height: 100vh;
     width: 100%;
-    background-image: url(../img/header.jpg);
+    background-image: url(../img/bg_-02.png);
     background-attachment: fixed;
     background-position: center center;
     -webkit-background-size: cover;
@@ -918,7 +918,7 @@ b i:last-child {
 .box-intro h1 {
     font-size: 40px;
     margin-top: 35px;
-    color: #333;
+    color: #77735d;
     letter-spacing: 40px;
     font-weight: 700;
 }
@@ -928,7 +928,7 @@ b i:last-child {
     font-size: 14px;
     letter-spacing: 10px;
     text-transform: uppercase;
-    color: #777466;
+    color: #77735d;
     line-height: 4;
     font-weight: 700;
 }
@@ -1199,19 +1199,19 @@ footer a:hover {
 }
 
 .contact-widget ul.social-icons li a.facebook:hover i {
-    color: #e4dcb1;
+    color: #fff;
 }
 
 .contact-widget ul.social-icons li a.pinterest:hover i {
-    color: #e4dcb1;
+    color: #fff;
 }
 
 .contact-widget ul.social-icons li a.envelope:hover i {
-    color: #e4dcb1;
+    color: #fff;
 }
 
 .contact-widget ul.social-icons li a.instgram:hover i {
-    color: #e4dcb1;
+    color: #fff;
 }
 
 .contact-widget ul li {
