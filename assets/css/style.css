@@ -62,7 +62,7 @@ h3,
 h4,
 h5,
 h6 {
-    color: ##77735d;
+    color: #77735d;
     font-family: 'Cantarell', sans-serif;
 }
 
@@ -756,7 +756,7 @@ ul.tags li a:hover {
 }
 
 .box-primary-nav-trigger {
-    width: 100px;
+    width: 50px;
     padding-left: 1em;
     background-color: transparent;
     height: 30px;
@@ -785,7 +785,7 @@ ul.tags li a:hover {
     top: 0;
     height: 100%;
     width: 100%;
-    background: rgba(0, 0, 0, 0.96);
+    background: rgb(228, 220, 177);
     z-index: 2;
     text-align: center;
     padding: 50px 0;
@@ -831,27 +831,15 @@ ul.tags li a:hover {
 
 .no-touch .box-primary-nav a:hover {
     text-decoration: none;
-    color: #ddd;
+    color: #77735d;
 }
 
 .box-primary-nav .box-label {
-    color: #e8e0b0;
+    color: #77735d;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 17px;
     margin: 2.4em 0 .8em;
-}
-
-.box-primary-nav .box-social {
-    display: inline-block;
-    margin: 10px .4em;
-}
-
-.box-primary-nav .box-social a {
-    width: 30px;
-    height: 30px;
-    padding: 0;
-    font-size: 20px
 }
 
 .box-primary-nav.is-visible {
