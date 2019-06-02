@@ -1,0 +1,39 @@
+.banner-area {
+    padding: 400px 0 350px;
+    background-color: #b0b0b0;
+    background-image: url(./img/zac-ong-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.btn_ {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-family: "Microsoft Yahei", "Hiragino Sans GB", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    color: #ffffff;
+    background-color: #e99c2e;
+}
+
+.btn_:hover {
+    background-color: #ffffff;
+    color: #e99c2e;
+}
+
+.btn-primary:hover {
+    background-color: #ffffff;
+    color: #e99c2e;
+    border-color: #e99c2e;
+}
