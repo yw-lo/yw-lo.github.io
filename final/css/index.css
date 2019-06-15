@@ -1,5 +1,5 @@
 body {
-    background-image: url("../img/bg.png");
+    background-image: url("../img/bg_-01.png");
     background-position: center;
     background-repeat: repeat;
     background-size: cover;
@@ -47,13 +47,13 @@ p {
     border: 1px solid transparent;
     border-radius: 4px;
     color: #ffffff;
-    background-color: #827c5e;
+    background-color: #566767;
 }
 
 .btn:hover {
     background-color: #fffef8;
-    color: #827c5e;
-    border-color: #827c5e;
+    color: #566767;
+    border-color: #566767;
 }
 
 
@@ -70,10 +70,20 @@ p {
 
 /* Data */
 
-.data-img {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    width: 60%
+@media only screen and (min-width: 769px) {
+    .data-img {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        width: 40%
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 768px) {
+    .data-img {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        width: 100%
+    }
 }
 
 
@@ -108,7 +118,7 @@ p {
 }
 
 .link:hover {
-    color: #827c5e;
+    color: #566767;
 }
 
 
@@ -126,7 +136,7 @@ p {
 /* Navbar */
 
 .nav-color {
-    background-color: #cac08d!important;
+    background-color: #758888!important;
 }
 
 
@@ -138,5 +148,5 @@ p {
 }
 
 .ref:hover {
-    color: #827c5e;
+    color: #566767;
 }
