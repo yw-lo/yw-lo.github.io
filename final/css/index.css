@@ -14,7 +14,7 @@ h5,
 h6,
 p {
     font-family: "Microsoft Yahei", "Hiragino Sans GB", sans-serif;
-    color: #5f5b46;
+    color: #4e5050;
 }
 
 
@@ -23,8 +23,8 @@ p {
 .border {
     border-style: solid!important;
     border-radius: 10pt;
-    border-color: #5f5b46!important;
-    background-color: #fffef8d9;
+    border-color: #4e5050!important;
+    background-color: #f7f7f7e3;
     padding: 5%;
 }
 
@@ -143,7 +143,7 @@ p {
 /* Ref */
 
 .ref {
-    color: #5f5b46;
+    color: #4e5050;
     text-decoration: underline;
 }
 
