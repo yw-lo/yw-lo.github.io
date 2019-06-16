@@ -1,5 +1,5 @@
 body {
-    background-image: url("../img/bg_-01.png");
+    background-image: url("../img/bg-01.png");
     background-position: center;
     background-repeat: repeat;
     background-size: cover;
@@ -136,7 +136,7 @@ p {
 /* Navbar */
 
 .nav-color {
-    background-color: #758888!important;
+    background-color: #758488!important;
 }
 
 
