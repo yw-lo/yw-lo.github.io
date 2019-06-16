@@ -11,13 +11,13 @@
   
 3.	這次專題中做了什麼、使用了什麼技術
 
-　　● 使用bootstrap排版
-　　● 背景圖是自己畫的
-　　● 類別圖示取自https://www.flaticon.com（credit標示於footer）
-　　● 以jQuery撰寫隨機捐贈碼部分
-　　● 取得URL參數部分（index.js line 131-183）參考 https://www.sitepoint.com/get-url-parameters-with-javascript/
-　　● 為防止使用者輸入網址直接進入第二步選擇頁面（即未經選擇類別），預設類別為婦女暨家庭
-　　● 自己透過財政部網站、各機構官網整理出社福機構的所有資料
+● 使用bootstrap排版
+● 背景圖是自己畫的
+● 類別圖示取自https://www.flaticon.com（credit標示於footer）
+● 以jQuery撰寫隨機捐贈碼部分
+● 取得URL參數部分（index.js line 131-183）參考 https://www.sitepoint.com/get-url-parameters-with-javascript/
+● 為防止使用者輸入網址直接進入第二步選擇頁面（即未經選擇類別），預設類別為婦女暨家庭
+● 自己透過財政部網站、各機構官網整理出社福機構的所有資料
   
 4.	網站特色與亮點
 
