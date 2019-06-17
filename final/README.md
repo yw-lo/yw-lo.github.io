@@ -22,6 +22,7 @@
     * 以jQuery撰寫隨機捐贈碼部分
     * 取得URL參數部分（index.js line 131-183）參考 https://www.sitepoint.com/get-url-parameters-with-javascript/
     * 為防止使用者輸入網址直接進入第二步選擇頁面（即未經選擇類別），預設類別為婦女暨家庭
+    * 以css media type調整捐贈碼圖片於不同裝置中的大小比例，方便使用且符合美觀
     * 自己透過財政部網站、各機構官網整理出社福機構的所有資料
   
   
